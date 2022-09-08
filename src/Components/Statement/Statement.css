@@ -1,0 +1,38 @@
+.statementouter{
+  display: flex;
+  justify-content: center;
+  color: white;  
+  margin: 70px 2px 0px 2px;   
+  
+
+}
+.statementinner{
+    background-color: #282c34;
+    width: auto;
+    margin: 20px 0;
+    padding-bottom:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+@media(max-width:1200px){
+  .statementouter{
+    margin: 10px 2px 0px 2px;  
+  }
+}
+.paragraph{
+    font-size: 15px;
+
+}
+@media(max-width:680px){
+ 
+.paragraph{
+  font-size: 12px;
+
+}
+.statementinner h1{
+  font-size: 20px;
+} 
+}

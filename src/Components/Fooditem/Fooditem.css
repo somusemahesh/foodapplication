@@ -1,0 +1,138 @@
+.foodouter{
+    margin: 20px 0 ;
+    display: flex;
+    width: 45%;
+    align-items: center;
+    border: 1px solid ;
+    flex-direction: column; 
+    border:none ;
+    border-radius:12px ;
+    background-color: #fff;
+    padding: 10px 0;
+    
+}
+@media(max-width:1160px){
+    .foodouter{
+        width: 70%;
+
+    }
+    .foodinner{
+        /* margin:7px 0; */
+        width: 95%;
+        border-bottom: 1px solid rgb(165, 157, 157);
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+@media(max-width:1050px){
+    .foodouter{
+        width: 80%;
+    }
+}
+
+@media(max-width:900px){
+    .foodouter{
+        width: 90%;
+    }
+}
+@media(max-width:800px){
+    .foodouter{
+        width: 100%;
+        margin: 0 2px;
+    }
+}
+.foodinner{
+    margin:7px 0;
+    width: 95%;
+    border-bottom: 1px solid rgb(165, 157, 157);
+    display: flex;
+    justify-content: space-between;
+}
+.foodleft{
+    margin: 5px 15px;
+    /* border:1px solid red; */
+    display: flex;
+    
+    flex-direction: column;
+
+}
+.fooddescription{
+    margin: 3px 0;
+}
+.foodname{
+    font-size: 15px;
+}
+.price{
+    color: rgb(238, 158, 9);
+}
+.foodright{
+    font-size: 10px;
+    font-weight: 500;
+    /* border: 1px solid red; */
+    display: flex;
+    width: 25%;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputnumber{
+    margin-left: 10px;
+    width: 20%;
+    border: 1px solid rgba(0, 0, 0, 0.191);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addbutton{
+    margin: 7px;
+    width: 40%;
+    padding: 5px 0;
+    font-size: 15px;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    color: white;
+    background-color: #B20600;
+
+
+}
+@media(max-width:1000px){
+    
+    .addbutton{
+        margin: 7px;
+        width: 60%;
+        padding: 5px 0;
+        font-size: 15px;
+        /* border: 1px solid white; */
+        border-radius: 15px;
+        color: white;
+        background-color: #B20600;
+    
+    
+    }
+    
+}
+
+@media(max-width:550px){
+
+.foodouter{
+    margin: 0 2px;
+}
+.foodright{
+    font-size: 10px;
+    font-weight: 500;
+    /* border: 1px solid red; */
+    display: flex;
+    width: 40%;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
