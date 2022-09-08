@@ -10,14 +10,14 @@ const fooddata=[
     id:"e1",
     title:"Suchi",
     details:"Finest fish and veggies",
-    price:"22.99"
+    price:"520"
   },
   {
 
     id:"102",
     title:"Schinitzel",
     details:"A german specialty!",
-    price:"33.99"
+    price:"330"
   },
 
   {
@@ -25,7 +25,7 @@ const fooddata=[
     id:"103",
     title:"Barbecue",
     details:"American,raw,meaty",
-    price:"59.25"
+    price:"425"
   },
 
   {
@@ -33,7 +33,7 @@ const fooddata=[
     id:"104",
     title:"Green Bowl",
     details:"Healthy...and green...",
-    price:"35.85"
+    price:"175"
   }];
 
 const Maincomponent = () => {

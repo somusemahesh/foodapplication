@@ -1,7 +1,7 @@
 .foodouter{
     margin: 20px 0 ;
     display: flex;
-    width: 45%;
+    width: 55%;
     align-items: center;
     border: 1px solid ;
     flex-direction: column; 

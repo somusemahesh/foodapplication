@@ -45,7 +45,7 @@ const MenuBar = () => {
         <Popup
           content={
             <>
-              <h1> Bill Details</h1>
+              {/* <h1> Bill Details</h1>
               <div className="Headingouter">
                 <h3>Item Name</h3>
                 <h3>Quantity</h3>
@@ -68,6 +68,48 @@ const MenuBar = () => {
               </div>
               <div>
                 <button type="submit" className="order">
+                  Order
+                </button>
+              </div> */}
+              <h1 className="bill">Receiptant</h1>
+              <div className="container">
+                
+      <table>
+  <thead>
+  <tr>
+    {/* <th className="tableheading">Sr.No</th> */}
+    <td className="tableheading">Item Name</td>
+    <td className="tableheading">Quantity</td>
+    <td className="tableheading">Amount</td>
+  </tr>
+  </thead>
+
+  <tbody>
+  {
+      itemlist.map((data, index)=>{
+          return(
+            <tr key={index} >
+                {/* <td className="tdata"> {price}</td> */}
+                <td className="tdata">{data.pname}</td>
+                <td className="tdata">{data.noOfItem}</td>
+                <td className="tdata">{data.amount}</td>
+            </tr>
+            )})
+    }
+</tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <td className="tableheading">Total Amount</td>
+      <td className="tableheading">{price}</td>
+    </tr>
+  </thead>
+</table>
+
+</div>
+              <div>
+                <button type="submit" className="order" onClick={()=>{alert("Congrats! Your food is Order")}}>
                   Order
                 </button>
               </div>
